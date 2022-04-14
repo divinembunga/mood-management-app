@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="moodArray">
+        <item>Great</item>
+        <item>Good</item>
+        <item>Ok</item>
+        <item>Not Good</item>
+        <item>Bad</item>
+    </array>
+</resources>

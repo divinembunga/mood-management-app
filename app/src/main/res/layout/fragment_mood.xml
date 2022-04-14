@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHappy"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/my_mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/my_mood_string"
+        android:src="@drawable/happy" />
+
+
+    <TextView
+        android:id="@+id/homepage_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Current Mood"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/contacts_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/homepage_title"
+        android:layout_marginLeft="85dp"
+        android:background="@null"
+        app:srcCompat="@android:drawable/ic_menu_call"/>
+
+    <ImageButton
+        android:id="@+id/info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/homepage_title"
+        android:layout_marginRight="85dp"
+        android:background="@null"
+        app:srcCompat="@android:drawable/ic_menu_info_details"/>
+
+    <TextView
+        android:id="@+id/my_mood_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/stringHappy"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/my_mood_string"
+        android:paddingTop="5dp"
+        android:text="@string/stringDate"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/date"
+        android:text="@string/stringTime"
+        android:textColor="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/edit_reason"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_marginTop="57dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round_edit_text"
+        android:hint="Reason"
+        android:inputType="text"
+        android:padding="20dp" />
+
+
+    <ImageButton
+        android:id="@+id/btn_reason_send"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/time"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="64dp"
+        android:layout_toRightOf="@id/edit_reason"
+        android:background="#000000"
+        android:color="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageButton
+        android:id="@+id/btn_edit_mood"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@null"
+        android:layout_toRightOf="@id/my_mood_string"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+
+</RelativeLayout>

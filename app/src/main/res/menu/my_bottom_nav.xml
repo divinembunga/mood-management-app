@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/moodFragment"
+        android:icon="@drawable/ic_mood_icon"
+        android:title="Mood" />
+    <item
+        android:id="@+id/insightsFragment"
+        android:title="Insights"
+        android:icon="@drawable/ic_insights_icon"/>
+    <item
+        android:id="@+id/activityFragment"
+        android:title="Activity"
+        android:icon="@drawable/ic_activity_icon"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_icon"/>
+</menu>

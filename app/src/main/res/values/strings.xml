@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Mood Detective</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stringVeryHappy">Great</string>
+    <string name="stringHappy">Good</string>
+    <string name="stringOk">Ok</string>
+    <string name="stringSad">Not Good</string>
+    <string name="stringAngry">Bad</string>
+    <string name="stringDate">Fri, Feb 11</string>
+    <string name="stringTime">1:20 PM</string>
+    <string name="addMood">\nMood: Great (4)\nReason: none</string>
+    <string name="moodLogOne">9:00 am\nMood: Ok (5)\nReason: none</string>
+    <string name="moodLogAngry">9:00 am\nMood: Bad (4)\nReason: Stressed</string>
+    <string name="moodLogSad">9:30 am\nMood: Not Good (5)\nReason: Bad dream</string>
+    <string name="moodLogOk">9:00 am\nMood: Ok (2)\nReason: none</string>
+    <string name="moodLogHappy">11:00 am\nMood: Good (4)\nReason: Great weather</string>
+    <string name="moodLogVHappy">10:15 am\nMood: Great (5)\nReason: none</string>
+    <string name="fakeMoodLogOne">11:30 am\nMood: Great (5) [Detected]\nReason: I got the interview\n\n1:00 pm\nMood: Not Good (3)\nReason: none\nActivity: Walked\n\n2:45 pm\nMood: Good (4)\nReason: none\n\n4:00 pm\nMood: Ok (3)\nReason: none\n\n6:15 pm\nMood: Good (5) [Detected]\nReason: Online shopped\n\n7:00 pm\nMood: Great (5)\nReason: Had dinner with a friend</string>
+    <string name="fakeMoodLogAngry">11:00 am\nMood: Ok (5) [Detected]\nReason: Meditated\n\n1:00 pm\nMood: Not Good (4)\nReason: none\nActivity: Walked\n\n2:45 pm\nMood: Good (3)\nReason: none\n\n4:00 pm\nMood: Ok (1)\nReason: none\n\n6:15 pm\nMood: Good (5) [Detected]\nReason: Online shopped\n\n7:00 pm\nMood: Great (5)\nReason: Had dinner with a friend</string>
+    <string name="fakeMoodLogSad">12:30 am\nMood: Good (5) [Detected]\nReason: Spoke with a friend\n\n1:00 pm\nMood: Ok (1)\nReason: none\n\n2:45 pm\nMood: Not Good (1)\nReason: none\nActivity: Read a book\n\n4:00 pm\nMood: Ok (2)\nReason: none\n\n6:15 pm\nMood: Not Good (4) [Detected]\nReason: Do not know\n\n7:00 pm\nMood: Not Good (4)\nReason: none</string>
+    <string name="fakeMoodLogOk">11:00 am\nMood:  Good (4)\nReason: none\nActivity: Gym\n\n1:00 pm\nMood: Ok (2)\nReason: none\n\n2:45 pm\nMood: Ok (3) [Detected]\nReason: none\n\n4:00 pm\nMood: Ok (3)\nReason: none\n\n6:15 pm\nMood: Good (4) [Detected]\nReason: Called mom\n\n7:00 pm\nMood: Good (4)\nReason: none</string>
+    <string name="fakeMoodLogHappy">11:30 am\nMood: Great (4)  [Detected]\nReason: I got the interview\n\n1:00 pm\nMood: Not Good (1)\nReason: none\nActivity: Walked\n\n2:45 pm\nMood: Good (3)\nReason: none\n\n4:00 pm\nMood: Good (3)\nReason: none\n\n6:15 pm\nMood: Good (5) [Detected]\nReason: Online shopped\n\n7:00 pm\nMood: Great (5)\nReason: Had dinner with a friend</string>
+    <string name="fakeMoodLogVHappy">11:30 am\nMood: Good (5) [Detected]\nReason: Called bf\n\n2:00 pm\nMood: Good (3)\nReason: none\nActivity: Climbing\n\n2:45 pm\nMood: Good (2)\nReason: none\n\n4:00 pm\nMood: Ok (2)\nReason: none\n\n6:15 pm\nMood: Good (3)  [Detected]\nReason: Online shopped\n\n7:00 pm\nMood: Great (5)\nReason: Went on a date</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    tools:context=".WeeklyInsights">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar_chart_card"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardUseCompatPadding="true">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:id="@+id/bar_chart"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mood_log_w"
+        android:layout_below="@id/bar_chart_card"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="Mood Log"/>
+
+    <ImageButton
+        android:id="@+id/btn_add_mood_w"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/mood_log_w"
+        android:background="@null"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mood_log_w"
+        android:id="@+id/log_card_w"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mood_log_text_w"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/moodLogHappy" />
+                <ImageButton
+                    android:id="@+id/btn_edit_mood2_w"
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="78dp"
+                    android:background="@null"
+                    android:layout_toRightOf="@id/mood_log_text_w"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <TextView
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mood_log_text2_w"
+                    android:layout_margin="10dp"
+                    android:layout_below="@id/mood_log_text_w"
+                    android:text="@string/fakeMoodLogHappy"/>
+
+                <ImageButton
+                    android:id="@+id/btn_fake_edit_mood_w"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="320dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/btn_edit_mood2_w"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginTop="380dp"
+                    android:layout_toRightOf="@id/mood_log_text2_w"
+                    android:background="@null"
+                    android:padding="5dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
